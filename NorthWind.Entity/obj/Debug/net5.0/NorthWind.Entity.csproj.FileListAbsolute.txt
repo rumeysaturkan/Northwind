@@ -1,0 +1,15 @@
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\NorthWind.Entity.deps.json
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\NorthWind.Entity.runtimeconfig.json
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\NorthWind.Entity.runtimeconfig.dev.json
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\NorthWind.Entity.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\ref\NorthWind.Entity.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\bin\Debug\net5.0\NorthWind.Entity.pdb
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.csproj.AssemblyReference.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.AssemblyInfoInputs.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.AssemblyInfo.cs
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\ref\NorthWind.Entity.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.pdb
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Entity\obj\Debug\net5.0\NorthWind.Entity.genruntimeconfig.cache

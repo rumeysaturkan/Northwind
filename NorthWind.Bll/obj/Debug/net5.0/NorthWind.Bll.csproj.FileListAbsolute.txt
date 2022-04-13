@@ -1,0 +1,15 @@
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\NorthWind.Bll.deps.json
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\NorthWind.Bll.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\ref\NorthWind.Bll.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\NorthWind.Bll.pdb
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.csproj.AssemblyReference.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.AssemblyInfoInputs.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.AssemblyInfo.cs
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.csproj.CoreCompileInputs.cache
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\ref\NorthWind.Bll.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.pdb
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\NorthWind.Entity.dll
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\bin\Debug\net5.0\NorthWind.Entity.pdb
+C:\Users\Rumeysa\source\repos\NorthWind\NorthWind.Bll\obj\Debug\net5.0\NorthWind.Bll.csproj.CopyComplete
