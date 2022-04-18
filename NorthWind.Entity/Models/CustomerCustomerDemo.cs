@@ -1,11 +1,12 @@
-﻿using System;
+﻿using NorthWind.Entity.Base;
+using System;
 using System.Collections.Generic;
 
 #nullable disable
 
 namespace NorthWind.Entity.Models
 {
-    public partial class CustomerCustomerDemo
+    public partial class CustomerCustomerDemo : EntityBase
     {
         public string CustomerId { get; set; }
         public string CustomerTypeId { get; set; }

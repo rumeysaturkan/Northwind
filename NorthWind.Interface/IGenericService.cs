@@ -1,4 +1,4 @@
-﻿using NorthWind.Entity.Base;
+﻿
 using NorthWind.Entity.IBase;
 using System;
 using System.Collections.Generic;

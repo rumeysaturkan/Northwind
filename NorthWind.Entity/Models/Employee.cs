@@ -1,11 +1,12 @@
-﻿using System;
+﻿using NorthWind.Entity.Base;
+using System;
 using System.Collections.Generic;
 
 #nullable disable
 
 namespace NorthWind.Entity.Models
 {
-    public partial class Employee
+    public partial class Employee : EntityBase
     {
         public Employee()
         {

@@ -1,11 +1,12 @@
-﻿using System;
+﻿using NorthWind.Entity.Base;
+using System;
 using System.Collections.Generic;
 
 #nullable disable
 
 namespace NorthWind.Entity.Models
 {
-    public partial class SummaryOfSalesByYear
+    public partial class SummaryOfSalesByYear:EntityBase
     {
         public DateTime? ShippedDate { get; set; }
         public int OrderId { get; set; }
