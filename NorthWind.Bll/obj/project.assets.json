@@ -1508,6 +1508,19 @@
         "runtime": {
           "bin/placeholder/NorthWind.Entity.dll": {}
         }
+      },
+      "NorthWind.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NorthWind.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Interface.dll": {}
+        }
       }
     }
   },
@@ -5741,12 +5754,18 @@
       "type": "project",
       "path": "../NorthWind.Entity/NorthWind.Entity.csproj",
       "msbuildProject": "../NorthWind.Entity/NorthWind.Entity.csproj"
+    },
+    "NorthWind.Interface/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Interface/NorthWind.Interface.csproj",
+      "msbuildProject": "../NorthWind.Interface/NorthWind.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 11.0.1",
-      "NorthWind.Entity >= 1.0.0"
+      "NorthWind.Entity >= 1.0.0",
+      "NorthWind.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5783,6 +5802,9 @@
           "projectReferences": {
             "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj": {
               "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj"
+            },
+            "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj": {
+              "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj"
             }
           }
         }

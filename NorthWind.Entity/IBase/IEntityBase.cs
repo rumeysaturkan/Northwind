@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Entity.IBase
 {
-    interface IEntityBase
+    public interface IEntityBase
     {
     }
 }

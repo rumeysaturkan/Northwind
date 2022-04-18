@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hx15SdS4I9IyfQsE9kl/mM6G3oQhnvl+NZrdQSoYFPZm6T1T1gNhuTHsyMp2+ai4MD2tGZT0ukRtWOPyn38GyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.WebApi\\NorthWind.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Rumeysa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
