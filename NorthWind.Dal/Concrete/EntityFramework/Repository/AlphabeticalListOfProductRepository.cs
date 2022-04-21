@@ -1,0 +1,18 @@
+﻿using Microsoft.EntityFrameworkCore;
+using NorthWind.Dal.Abstract;
+using NorthWind.Entity.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NorthWind.Dal.Concrete.EntityFramework.Repository
+{
+    public class AlphabeticalListOfProductRepository : GenericRepository<AlphabeticalListOfProduct>, IAlphabeticalListOfProductRepository
+    {
+        public AlphabeticalListOfProductRepository(DbContext context) : base(context)
+        {
+        }
+    }
+}
