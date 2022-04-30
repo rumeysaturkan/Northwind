@@ -1,4 +1,5 @@
-﻿using NorthWind.Entity.Dto;
+﻿using Northwind.Bll;
+using NorthWind.Entity.Dto;
 using NorthWind.Entity.Models;
 using NorthWind.Interface;
 using System;
@@ -11,5 +12,8 @@ namespace NorthWind.Bll
 {
     public class CustomerAndSuppliersByCityManager : GenericManager<CustomerAndSuppliersByCity, DtoCustomerAndSuppliersByCity>, ICustomerAndSuppliersByCityService
     {
+        public CustomerAndSuppliersByCityManager(IServiceProvider service) : base(service)
+        {
+        }
     }
 }

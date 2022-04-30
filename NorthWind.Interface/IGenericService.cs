@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Interface
 {
-    public interface IGenericService<T, TDto> where T:IEntityBase where TDto:IDtoBase
+    public interface IGenericService<T, TDto> where T : IEntityBase where TDto : IDtoBase
     {
+        //IEnumerable ile IQueryable farkı IQueryable veri tabanında işlemi yapar, IEnumerable ram'de işlemi yapar.
         //Listeleme
         IResponse<List<TDto>> GetAll();
-
-        //FiltreliListeleme
-        IResponse<List<TDto>> GetAll(Expression<Func<T,bool>> expression);
+        //Filtreli Listeleme
+        IResponse<List<TDto>> GetAll(Expression<Func<T, bool>> expression);
         //Getirme
         IResponse<TDto> Find(int id);
         //Kaydetme
@@ -24,13 +24,11 @@ namespace NorthWind.Interface
         Task<IResponse<TDto>> AddAsync(TDto item, bool saveChanges = true);
         //Güncelleme
         IResponse<TDto> Update(TDto item, bool saveChanges = true);
-        //Async Güncelleme
-        Task<IResponse<TDto>> UpdateAsync(TDto item, bool saveChanges = true);
         //Silme
         IResponse<bool> DeleteById(int id, bool saveChanges = true);
-        //Async Silme
-        Task<IResponse<bool>> DeleteByIdAsync(int id, bool saveChanges = true);
-        //IQueryable listele
-        IQueryable<TDto> GetQueryable();
+        //Queryable Listeleme
+        IResponse<IQueryable<TDto>> GetQueryable();
+        //Kaydet
+        void Save();
     }
 }

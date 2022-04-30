@@ -10,5 +10,6 @@ namespace NorthWind.Dal.Abstract
     public interface ICustomerRepository
     {
         IQueryable<Customer> GetTotalReport();
+        Customer Find(string id);
     }
 }

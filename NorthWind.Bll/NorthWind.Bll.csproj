@@ -6,9 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NorthWind.Dal\NorthWind.Dal.csproj" />
     <ProjectReference Include="..\NorthWind.Entity\NorthWind.Entity.csproj" />
     <ProjectReference Include="..\NorthWind.Interface\NorthWind.Interface.csproj" />
   </ItemGroup>

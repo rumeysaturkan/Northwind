@@ -21,5 +21,9 @@ namespace NorthWind.Dal.Concrete.EntityFramework.Repository
         {
             return dbset.AsQueryable<Customer>();
         }
+        public Customer Find(string id)
+        {
+            return dbset.Find(id);
+        }
     }
 }

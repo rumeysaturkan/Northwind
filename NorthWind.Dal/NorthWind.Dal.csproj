@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\UnityOfWork\" />
+    <Compile Remove="Concrete\EntityFramework\UnityOfWork\**" />
+    <EmbeddedResource Remove="Concrete\EntityFramework\UnityOfWork\**" />
+    <None Remove="Concrete\EntityFramework\UnityOfWork\**" />
   </ItemGroup>
 
   <ItemGroup>

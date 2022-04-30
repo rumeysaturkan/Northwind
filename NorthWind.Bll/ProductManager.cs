@@ -1,4 +1,5 @@
-﻿using NorthWind.Entity.Dto;
+﻿using Northwind.Bll;
+using NorthWind.Entity.Dto;
 using NorthWind.Entity.Models;
 using NorthWind.Interface;
 using System;
@@ -9,7 +10,10 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Bll
 {
-    public class ProductManager:GenericManager<Product, DtoProduct>, IProductService
+    public class ProductManager : GenericManager<Product, DtoProduct>, IProductService
     {
+        public ProductManager(IServiceProvider service) : base(service)
+        {
+        }
     }
 }

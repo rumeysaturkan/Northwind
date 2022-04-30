@@ -14,5 +14,16 @@ namespace NorthWind.Dal.Concrete.EntityFramework.Repository
         public UserRepository(DbContext context) : base(context)
         {
         }
+
+        public User Login(User login)
+        {
+            var user = dbset.Where(x => x.UserCode == login.UserCode && x.Password == login.Password).SingleOrDefault();
+            // var user = dbset.FirstOrDefault(x => x.UserCode == login.UserCode && x.Password == login.Password);
+            // var user = dbset.SingleOrDefault(x => x.UserCode == login.UserCode && x.Password == login.Password);
+
+
+            return user;
+
+        }
     }
 }

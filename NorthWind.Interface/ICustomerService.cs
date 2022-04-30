@@ -1,4 +1,5 @@
 ﻿using NorthWind.Entity.Dto;
+using NorthWind.Entity.IBase;
 using NorthWind.Entity.Models;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Interface
 {
-    public interface ICustomerService: IGenericService<Customer, DtoCustomer>
+    public interface ICustomerService : IGenericService<Customer, DtoCustomer>
     {
-        IQueryable<DtoCustomer> GetTotalReport();
+        IResponse<IQueryable<DtoCustomer>> GetTotalReport();
+        IResponse<DtoCustomer> Find(string id);
+
+
     }
 }

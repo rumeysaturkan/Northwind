@@ -1,4 +1,5 @@
 ﻿using NorthWind.Entity.Dto;
+using NorthWind.Entity.IBase;
 using NorthWind.Entity.Models;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace NorthWind.Interface
 {
     public interface IUserService:IGenericService<User, DtoUser>
     {
+        IResponse<DtoUserToken> Login(DtoLogin login);
     }
 }

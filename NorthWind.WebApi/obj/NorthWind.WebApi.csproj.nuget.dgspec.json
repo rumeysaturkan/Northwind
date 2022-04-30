@@ -4,6 +4,306 @@
     "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.WebApi\\NorthWind.WebApi.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\NorthWind.Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\NorthWind.Bll.csproj",
+        "projectName": "NorthWind.Bll",
+        "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\NorthWind.Bll.csproj",
+        "packagesPath": "C:\\Users\\Rumeysa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rumeysa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj"
+              },
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj"
+              },
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj",
+        "projectName": "NorthWind.Dal",
+        "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj",
+        "packagesPath": "C:\\Users\\Rumeysa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rumeysa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj",
+        "projectName": "NorthWind.Entity",
+        "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj",
+        "packagesPath": "C:\\Users\\Rumeysa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rumeysa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj",
+        "projectName": "NorthWind.Interface",
+        "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj",
+        "packagesPath": "C:\\Users\\Rumeysa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rumeysa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Entity\\NorthWind.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.WebApi\\NorthWind.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +331,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\NorthWind.Bll.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Bll\\NorthWind.Bll.csproj"
+              },
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Dal\\NorthWind.Dal.csproj"
+              },
+              "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rumeysa\\source\\repos\\NorthWind\\NorthWind.Interface\\NorthWind.Interface.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

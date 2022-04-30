@@ -13,6 +13,7 @@ namespace NorthWind.Entity.Mapper
     {
         public MappingProfile()
         {
+            CreateMap<User, DtoLoginUser>();
             CreateMap<AlphabeticalListOfProduct, DtoAlphabeticalListOfProduct>().ReverseMap();
             CreateMap<Customer, DtoCustomer>().ReverseMap();
             CreateMap<Category, DtoCategory>().ReverseMap();

@@ -1,4 +1,4 @@
-﻿using NorthWind.Bll;
+﻿
 using NorthWind.Entity.IBase;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Dal.Abstract
 {
-    public interface IGenericRepository<T>:GenericManager where T:IEntityBase 
+    public interface IGenericRepository<T> where T:IEntityBase 
     {
         //Listeleme
         List<T> GetAll();
